@@ -154,3 +154,15 @@ multThree = (arg1) => {
 }
 
 console.log(multThree(arr1));
+
+
+var arr1 = [1, 2, 7, 4, 10, 8, 9]
+function onlyEven (arg1) {
+    for(let i=0;i<arg1.length;i++){
+        if(arg1[i]%2===0) {
+            arg1[i] = arg1[i]
+    }
+    return arg1
+}
+
+console.log(onlyEven(arr1));
